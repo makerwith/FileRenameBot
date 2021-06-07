@@ -102,12 +102,12 @@ async def start_me(bot, update):
                         InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('Support Channel', url='https://t.me/Mai_bOTs'),
-                    InlineKeyboardButton('Feedback', url='https://t.me/No_OnE_Kn0wS_Me')
+                    InlineKeyboardButton('Support Channel', url='https://t.me/close_chapters'),
+                    InlineKeyboardButton('Feedback', url='https://t.me/Makerwith')
                 ],
                 [
-                    InlineKeyboardButton('Other Bots', url='https://t.me/Mai_bOTs/17'),
-                    InlineKeyboardButton('Source', url='https://github.com/No-OnE-Kn0wS-Me/FileRenameBot')
+                    InlineKeyboardButton('Other Bots', url='https://t.me/close_chapters_copyright'),
+                    InlineKeyboardButton('Source', url='https://t.me/joinchat/eZk8OSmHwR5jYTJl')
                 ]
             ]
         ),
@@ -115,7 +115,7 @@ async def start_me(bot, update):
     )
             return 
 
-@Mai_bOTs.on_callback_query()
+@Close_chapters.on_callback_query()
 async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
     data = query.data
     if data == "rnme":
