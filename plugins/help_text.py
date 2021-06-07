@@ -106,7 +106,7 @@ async def start_me(bot, update):
                     InlineKeyboardButton('Feedback', url='https://t.me/Makerwith')
                 ],
                 [
-                    InlineKeyboardButton('Other Bots', url='https://t.me/close_chapters'),
+                    InlineKeyboardButton('Other Bots', url='https://t.me/hiphop_tamizha_movies'),
                     InlineKeyboardButton('Source', url='https://t.me/joinchat/eZk8OSmHwR5jYTJl')
                 ]
             ]
