@@ -13,7 +13,7 @@ import pyrogram
 import os
 import sqlite3
 from pyrogram import filters
-from pyrogram import Client as Mai_bOTs
+from pyrogram import Client as closss
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery, Message
 from pyrogram.errors import UserNotParticipant, UserBannedInChannel 
 
