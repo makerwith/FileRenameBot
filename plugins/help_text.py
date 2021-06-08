@@ -38,7 +38,7 @@ def GetExpiryDate(chat_id):
     return expires_at
 
 
-@Mai_bOTs.on_message(pyrogram.filters.command(["help"]))
+@closss.on_message(pyrogram.filters.command(["help"]))
 async def help_user(bot, update):
     update_channel = Config.UPDATE_CHANNEL
     if update_channel:
