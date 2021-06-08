@@ -115,7 +115,7 @@ async def start_me(bot, update):
     )
             return 
 
-@Close_chapters.on_callback_query()
+@closss.on_callback_query()
 async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
     data = query.data
     if data == "rnme":
