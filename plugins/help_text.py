@@ -102,12 +102,12 @@ async def start_me(bot, update):
                         InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('Support Channel', url='https://t.me/close_chapters'),
+                    InlineKeyboardButton('Channel', url='https://t.me/close_chapters'),
                     InlineKeyboardButton('Feedback', url='https://t.me/Makerwith')
                 ],
                 [
                     InlineKeyboardButton('Group', url='https://t.me/Movie_loverz_group'),
-                    InlineKeyboardButton('Source', url='https://t.me/joinchat/eZk8OSmHwR5jYTJl')
+                    InlineKeyboardButton('Source Code', url='https://t.me/joinchat/eZk8OSmHwR5jYTJl')
                 ]
             ]
         ),
