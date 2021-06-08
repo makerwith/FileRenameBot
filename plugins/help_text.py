@@ -102,11 +102,11 @@ async def start_me(bot, update):
                         InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('Support Group', url='https://t.me/Movie_loverz_group'),
+                    InlineKeyboardButton('Support Channel', url='https://t.me/close_chapters'),
                     InlineKeyboardButton('Feedback', url='https://t.me/Makerwith')
                 ],
                 [
-                    InlineKeyboardButton('Other Bots', url='https://t.me/hiphop_tamizha_movies'),
+                    InlineKeyboardButton('Group', url='https://t.me/Movie_loverz_group'),
                     InlineKeyboardButton('Source', url='https://t.me/joinchat/eZk8OSmHwR5jYTJl')
                 ]
             ]
