@@ -116,7 +116,7 @@ async def start_me(bot, update):
             return 
 
 @closss.on_callback_query()
-async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
+async def cb_handler(client: closss , query: CallbackQuery):
     data = query.data
     if data == "rnme":
         await query.message.edit_text(
