@@ -73,7 +73,7 @@ async def help_user(bot, update):
         )
     )       
 
-@Mai_bOTs.on_message(pyrogram.filters.command(["start"]))
+@closss.on_message(pyrogram.filters.command(["start"]))
 async def start_me(bot, update):
     if update.from_user.id in Config.BANNED_USERS:
         await update.reply_text("You are Banned")
